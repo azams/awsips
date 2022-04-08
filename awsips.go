@@ -19,6 +19,7 @@ type AWSPrefix struct {
 	Prefix string `json:"ip_prefix"`
 	Region string `json:"region"`
 	Service string `json:"service"`
+	BorderGroup string `json:"network_border_group"`
 }
 
 func download() (*AWSRanges, error) {
